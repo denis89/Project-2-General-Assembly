@@ -1,7 +1,7 @@
-class AppointmentController < ApplicationController
+class AppointmentsController < ApplicationController
 
   def index
-   @appointmens = Appointment.all 
+   @appointments = Appointment.all 
   end
 
   def create
