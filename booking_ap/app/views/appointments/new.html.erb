@@ -1,0 +1,20 @@
+<%= form_for @appointment do |form| %>
+  
+  <%= form.label :date %>
+  <%= form.text_field :date %>
+  <br>
+
+  <%= form.label :phone_no %>
+  <%= form.text_field :phone_no %>
+<%#
+  <%= form.label :customer_id %>
+ <%# <%= form.text_field :customer_id%>
+ <%# <br>
+  <%= form.label :technician_id %>
+  <%#<%= form.text_field :technician_id %>
+<br>
+
+  
+  <%= form.submit 'Submit' %>
+
+<% end %>

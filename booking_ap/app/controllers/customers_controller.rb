@@ -5,7 +5,7 @@ def index
   end
 
   def create
-    @customer= customer.new(customer_params)
+    @customer= Customer.new(customer_params)
      if @customer.save
       redirect_to @customer
     else
@@ -14,12 +14,13 @@ def index
   end
 
   def new
-    @customer= customer.new
+    @customer= Customer.new
+    
   end
 
    
   def show 
-    @customer = customer.find(params[:id])
+    @customer = Customer.find(params[:id])
   end
 
 
