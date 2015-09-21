@@ -1,14 +1,75 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>BookingAp</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+<!--
+  Interphase by TEMPLATED
+  templated.co @templatedco
+  Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Book a Technician</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/skel-layers.min.js"></script>
+    <script src="js/init.js"></script>
+     <%= stylesheet_link_tag 'style' %>
+       <%= stylesheet_link_tag 'skel' %>
 
-<%= yield %>
+    <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+  </head>
+  <body class="landing">
 
-</body>
+    <!-- Header -->
+      <header id="header">
+        <h1><a href="index.html">WeTech</a></h1>
+        <nav id="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="generic.html">Generic</a></li>
+            <li><a href="elements.html">Elements</a></li>
+          </ul>
+        </nav>
+      </header>
+
+    <!-- Banner -->
+      <section id="banner">
+        <h2>Book your technician!</h2>
+        <p>Here you can see all the availability of our technicians.</p>
+        <ul class="actions">
+          <li>
+            <a href="booking.html" class="button big">Start booking</a>
+          </li>
+        </ul>
+      </section>
+
+    
+
+    <!-- Two -->
+      
+
+    <!-- Footer -->
+      <footer id="footer">
+        <div class="container">
+          <div class="row">
+            <section class="4u$ 12u$(medium) 12u$(small)">
+              <h3>Contact Us</h3>
+              <ul class="icons">
+                <li><a href="#" class="icon rounded fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="icon rounded fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a href="#" class="icon rounded fa-pinterest"><span class="label">Pinterest</span></a></li>
+                <li><a href="#" class="icon rounded fa-google-plus"><span class="label">Google+</span></a></li>
+                <li><a href="#" class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a></li>
+              </ul>
+              
+            </section>
+          </div>
+          
+        </div>
+      </footer>
+
+  </body>
 </html>
