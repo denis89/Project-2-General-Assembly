@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
 
 resources :appointments
-  resources :customers
-  resources :technicians
+resources :customers
+resources :technicians
 
-  root 'appointments#index'
+  root 'technicians#index'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

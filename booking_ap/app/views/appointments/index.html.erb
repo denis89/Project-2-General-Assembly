@@ -1,6 +1,19 @@
-<h1>Hello</h1>
+<h1>???</h1>
+<script>
+
+$(document).ready(function() {
+
+    // page is now ready, initialize the calendar...
+
+    $('#calendar').fullCalendar({
+        // put your options and callbacks here
+    })
+
+});
+</script>
+
+<div id='calendar'>Calendar</div>
 <%#<% @appointments.each do |appointment| %>
 <%#  <%= link_to appointment.date, appointment %>
 <%# <% end %>
 
-<%= link_to 'free', new_customer_path %>

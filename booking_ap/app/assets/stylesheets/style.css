@@ -971,7 +971,7 @@
 		text-align: center;
 	}
 	#banner {
-     background-image: image_url("#{@object.image}");
+     
      background-position: center
 }
 
@@ -1081,6 +1081,7 @@
 
 			#footer .icons .rounded:active, #footer .icons .rounded:hover {
 				border-color: #ffffff;
+				background: url("technician.jpg");
 
 			}
 
