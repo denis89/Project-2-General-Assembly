@@ -1,1 +1,26 @@
-<h1> Show page </h1>
+ <%#
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.4.0/fullcalendar.css' />
+     
+     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
+     
+     <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js'></script>
+
+     <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.4.0/fullcalendar.js'></script>
+ <script>
+$(document).ready(function() {
+
+    // page is now ready, initialize the calendar...
+
+    $('#calendar').fullCalendar({
+        // put your options and callbacks here
+       weekends: true
+  
+   
+    });
+
+});
+
+    </script>
+
+<div id='calendar'></div>%>
+<%= link_to 'free', new_appointment_path %>

@@ -1,5 +1,6 @@
-<h1>???</h1>
-<script>
+<h1> </h1>
+
+<%#<script>
 
 $(document).ready(function() {
 
@@ -7,12 +8,16 @@ $(document).ready(function() {
 
     $('#calendar').fullCalendar({
         // put your options and callbacks here
+       
     })
 
 });
 </script>
 
-<div id='calendar'>Calendar</div>
+<div id='calendar'></div>
+
+ <%= link_to 'free', new_appointment_path %>
+
 <%#<% @appointments.each do |appointment| %>
 <%#  <%= link_to appointment.date, appointment %>
 <%# <% end %>
