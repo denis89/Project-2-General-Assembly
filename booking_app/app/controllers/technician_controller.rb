@@ -1,7 +1,7 @@
 class TechnicianController < ApplicationController
 
   def index
-   @technicians = technician.all 
+   @technicians = Technician.all 
   end
 
   def create
@@ -14,7 +14,7 @@ class TechnicianController < ApplicationController
   end
 
   def new
-    @technician= technician.new
+    @technician= Technician.new
   end
 
    

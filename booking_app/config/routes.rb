@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  resources :appointment
+  resources :appointments
   resources :customer
   resources :technician
 
