@@ -5,9 +5,10 @@ def index
   end
 
   def create
-    @appointments = Appointment.new(appointments_params)
-     if @appointments.save
-      redirect_to @appointments
+    @appointment = Appointment.new(appointments_params)
+     if @appointment.save
+      redirect_to appointments_url
+      # It goes to the index.appointment, because it is pluralized.
     else
      render :new
     end

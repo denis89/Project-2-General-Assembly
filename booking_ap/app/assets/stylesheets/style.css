@@ -962,7 +962,7 @@
 /* Banner */
 
 	#banner {
-		background: url("technician.jpg");
+		background: url("overlay.png"),url("technician.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -981,6 +981,8 @@
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
+			position: relative;
+			bottom: 50%;
 		}
 
 		#banner p {

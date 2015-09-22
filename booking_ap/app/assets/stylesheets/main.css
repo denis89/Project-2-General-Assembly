@@ -27,6 +27,20 @@
 		line-height: 1;
 	}
 
+#index {
+	position: relative;
+	text-align: center;
+	top: 10%;
+
+}
+#button {
+	position: relative;
+	margin: 30% 30% 30% 44%;
+	top: 30%;
+    
+
+}
+
 	ol, ul {
 		list-style: none;
 	}

@@ -4,7 +4,7 @@ resources :appointments
 resources :customers
 resources :technicians
 
-  root 'technicians#index'
+  root 'customers#index'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

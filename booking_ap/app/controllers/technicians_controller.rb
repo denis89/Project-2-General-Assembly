@@ -4,6 +4,10 @@ class TechniciansController < ApplicationController
    @technicians = Technician.all 
   end
 
+  def home
+@technicians = Technician.all
+  end
+
   def create
     @technician= technician.new(technician_params)
      if @technician.save
@@ -19,7 +23,7 @@ class TechniciansController < ApplicationController
 
    
   def show 
-   @technicians = Technician.all 
+   @technicians = Technician.all
   end
 
 
