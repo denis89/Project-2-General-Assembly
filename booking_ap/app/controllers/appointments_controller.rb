@@ -14,8 +14,7 @@ def index
   end
 
   def new
-    @appointment = Appointment.new
-    
+    @appointment = Appointment.new    
   end
 
    
@@ -28,7 +27,7 @@ def index
 
 private
   def appointments_params
-  params.require(:appointment).permit(:date)
-    end
+    params.require(:appointment).permit(:date, :name, :phone_no)
+  end
 
 end
