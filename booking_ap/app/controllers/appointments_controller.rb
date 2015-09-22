@@ -1,7 +1,7 @@
 class AppointmentsController < ApplicationController
 
-def index
-   @appointments = Appointment.all 
+  def index
+    @appointments = Appointment.all 
   end
 
   def create
@@ -17,18 +17,13 @@ def index
   def new
     @appointment = Appointment.new    
   end
-
    
   def show 
-   
   end
 
-
-
-
-private
-  def appointments_params
-    params.require(:appointment).permit(:date, :name, :phone_no)
-  end
+  private
+    def appointments_params
+      params.require(:appointment).permit(:date, :name, :phone_no, :time)
+    end
 
 end

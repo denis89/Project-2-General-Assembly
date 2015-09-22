@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
 
-resources :appointments
-resources :customers
-resources :technicians
-
+  resources :appointments
+  resources :customers
+  resources :technicians
   root 'customers#index'
 
 

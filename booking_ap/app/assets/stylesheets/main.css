@@ -37,8 +37,12 @@
 	position: relative;
 	margin: 30% 30% 30% 44%;
 	top: 30%;
-    
+}
 
+.button {
+	position: relative;
+	margin: 5.5% 10% 15% 41%;
+	
 }
 
 	ol, ul {

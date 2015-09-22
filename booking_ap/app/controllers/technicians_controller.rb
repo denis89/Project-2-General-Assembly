@@ -1,11 +1,11 @@
 class TechniciansController < ApplicationController
 
   def index
-   @technicians = Technician.all 
+    @technicians = Technician.all 
   end
 
   def home
-@technicians = Technician.all
+    @technicians = Technician.all
   end
 
   def create
@@ -20,23 +20,14 @@ class TechniciansController < ApplicationController
   def new
     @technician= Technician.new
   end
-
    
   def show 
    @technicians = Technician.all
   end
 
-
-
-
-private
-  def technician_params
-  params.require(:technician).permit(:name, :cash_balance)
+  private
+    def technician_params
+    params.require(:technician).permit(:name, :cash_balance)
     end
-
-
-
-
-
 
 end
